@@ -2,8 +2,8 @@ import socket
 import time
 
 def start_honeypot(port, service):
-    host = '0.0.0.0' # bind to all available interfaces
-    backlog = 5 # maximum number of queued connections
+    host = '0.0.0.0' 
+    backlog = 5 
 
     
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
