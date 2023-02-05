@@ -1,2 +1,2 @@
 # SimplePot
-A simple HoneyPot
+A simple HoneyPot in python
